@@ -7,7 +7,7 @@ const { twitter } = useAppConfig()
 
 <template>
   <a
-    :href="twitter"
+    :href="https://t.me/HunaTran"
     target="_blank"
     title="X(Twitter)"
     class="inline-flex items-center px-3 py-1 mx-auto my-4 space-x-1 text-sm font-medium rounded-lg bg-muted"
@@ -17,7 +17,7 @@ const { twitter } = useAppConfig()
       orientation="vertical"
       class="h-4"
     />
-    <span>Follow me on X(Twitter)</span>
+    <span>Follow me on Telegram</span>
     <ArrowRight class="w-4 h-4" />
   </a>
 </template>
